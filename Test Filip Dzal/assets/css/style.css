@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Italianno';
+    src: url('Italianno-Regular.woff2') format('woff2'),
+        url('Italianno-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    width:1600px;
+    height: 1200px;
+    background-image:url(BG58-011.png);
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    margin:64px 158px 0;
+}
+header span{
+    font-family: 'Lato', sans-serif;
+    margin-left: 9px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+letter-spacing: 0.085em;
+
+color: #FFFFFF;
+}
+.copyr img{
+    margin:auto 0;
+}
+.Sredina{
+    display:flex;
+    flex-direction: column;
+}
+.logo{
+    width: 110px;
+height: 117px;
+margin:-22px auto 45px;
+
+}
+.monster{
+    width: 322px;
+height: 20px;
+margin:0 auto;
+}
+.motor{
+    position: relative;
+    bottom:240px;
+    z-index:2;
+    width: 1050px;
+height: 650px;
+margin:0 auto;
+}
+.kocka{
+    position: relative;
+    bottom:481px;
+    z-index:1;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+height: 446px;
+background: #FFFFFF;
+box-shadow: 0px 40px 30px rgba(60, 49, 13, 0.15);
+border-radius: 50px;
+margin: 0 auto;
+}
+.tekst{
+    margin:42px 0 71px 64px;
+    width:238px;
+    height: 333px;
+}
+.malitekst{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    margin:0;
+    color: #181818;
+}
+.velikitekst{
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 121%;
+
+letter-spacing: 0.095em;
+
+color: #181818;
+margin:0;
+}
+.textbox{
+    margin-bottom: 15px;
+}
+.boje{
+    position: relative;
+    top:265px;
+    width:395px;
+    height: 90px;
+    align-content: center;
+    right:20px;
+}
+.crvena{
+    height: 90px;
+    width: 90px;
+    filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.6));
+}
+.crna{
+    height: 80px;
+    width: 80px;
+    margin: 5px 70px 5px 65px;
+}
+.siva{
+    height: 80px;
+    width: 80px;
+    margin:5px 0;
+}
+.inspirational{
+    position: relative;
+    top:250px;
+    right:50px;
+    font-family: 'Italianno';
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 102%;
+/* or 51px */
+
+letter-spacing: 0.135em;
+
+color: #707070;
+}
+.inspirational p{
+    margin:0;
+}
+.livo{
+    position: relative;
+    right: 120px;
+}
+.broj{
+    width: 349px;
+height: 240px;
+margin:0 auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 240px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    /* Btn - Shadow 2 */
+    
+    text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.6);
+}
